@@ -1,5 +1,7 @@
 ## Smart Health Project 2020
 
+[![Join the chat at https://gitter.im/SmartHealthProject/community](https://badges.gitter.im/SmartHealthProject/community.svg)](https://gitter.im/SmartHealthProject/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 We are using Github pages to host our Smart Health project. Our project is to help everyone become more aware and informed about what autism entails, through our web application we will highlight the spectrum of the disorder, an assortment of treatment types, the resources available to those who are affected by it, and more. Furthermore, a user will be able to take a quiz that will help them realize whether or not they or a loved one should seek treatment. The quiz will ask questions about the current status of one’s health, including any potential symptoms, any current medications they take, their day to day social life, etc. This quiz will ideally help user’s diagnose the disorder more quickly and more efficiently. 
 
 ## References
