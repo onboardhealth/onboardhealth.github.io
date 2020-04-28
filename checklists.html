@@ -30,8 +30,6 @@
   				document.getElementById(tabName).style.display = "block";
   				evt.currentTarget.className += " active";
 			}
-			
-			document.getElementById("Main").click();
 		</script>
 	</head>
 	<body>
@@ -49,7 +47,7 @@
         		<h1 style="text-align:center;">Checklists for Diagnosing Autism</h1>
 			
 			<div class="tab">
-			  <button class="tablinks" onclick="openTab(event, 'Main')">Main</button>
+			  <button class="tablinks" onclick="openTab(event, 'Main')" checked>Main</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Toddlers')">Toddlers</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Children')">Children</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Adults')">Adults</button>
