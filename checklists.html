@@ -5,8 +5,6 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		
-		<script href="/scripts/main.js"></script>
-		
 		 <!-- Github Button -->
     		<script async defer src="https://buttons.github.io/buttons.js"></script>
     		<script>
@@ -16,6 +14,7 @@
      	 	</script>
     		<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 		<script>
+			document.getElementById("Main").click();
 			function openTab(evt, tabName) {
   				var i, tabcontent, tablinks;
 
@@ -49,10 +48,17 @@
         		<h1 style="text-align:center;">Checklists for Diagnosing Autism</h1>
 			
 			<div class="tab">
+			  <button class="tablinks" onclick="openTab(event, 'Main')">Main</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Toddlers')">Toddlers</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Children')">Children</button>
                     	  <button class="tablinks" onclick="openTab(event, 'Adults')">Adults</button>
                   	</div>
+			
+			<div id="Main" class=tabcontent">
+			  <h3>Autism Checklists</h3>
+			  <p></p>
+			</div>
+							
                   
                   	<div id="Toddlers" class="tabcontent">
                     	  <h3>Toddlers</h3>
